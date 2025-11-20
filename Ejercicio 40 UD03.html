@@ -14,7 +14,34 @@
 <body>
 <h3>Rellena tu CV</h3>
 <form>
-    
+    <fieldset>
+        <legend>Datos personales</legend>
+        <label for="Provincia">Provincia</label>
+        <br>
+        <select name="Provincia" id="Provincia">
+                    <option disabled selected>-selecciona-</option>
+        </select>
+        <br>
+        <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+        <br>
+        <input type="text" size="1">
+        de
+        <select name="Meses" id="Meses">
+            <option value="Enero">Enero</option>
+        </select>
+        de
+        <input type="text" size="2">
+        <br>
+        <label for="Temas de interés">Temas de interés</label>
+        <br>
+        <textarea rows="5" cols="40">
+Administración de bases de datos
+Analisis y programación
+Arquitectura
+Calidad
+ERP, CRM, Bussiness Intelligence
+        </textarea>
+    </fieldset>
 </form>
 </body>
 </html>
